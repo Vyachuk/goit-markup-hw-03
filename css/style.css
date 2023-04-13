@@ -209,7 +209,7 @@ body {
 ==============================*/
 .footer {
     background-color: var(--title-color);
-    padding: 100px;
+    padding: 100px 0;
 }
 .footer-logo {
     display: inline-block;
