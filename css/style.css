@@ -61,7 +61,8 @@ body {
 .container {
     width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ============================
@@ -103,7 +104,7 @@ body {
 }
 .header-list{
     margin-right: auto;
-    width: 261px;
+    gap: 40px;
 }
 /* ============================
             First section
@@ -207,16 +208,16 @@ body {
             Footer
 ==============================*/
 .footer {
-background-color: var(--title-color);
-padding: 100px 0;
+    background-color: var(--title-color);
+    padding: 100px;
 }
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
 .footer-container {
+    box-sizing: content-box;
     width: 264px;
-    margin-left: 156px;
 }
 .footer-text {
     color: var(--cloud-color);
