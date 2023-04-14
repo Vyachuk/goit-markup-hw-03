@@ -216,7 +216,6 @@ body {
     margin-bottom: 16px;
 }
 .footer-container {
-    box-sizing: content-box;
     width: 264px;
 }
 .footer-text {
