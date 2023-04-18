@@ -223,6 +223,7 @@ body {
 }
 .footer-text {
     color: var(--cloud-color);
+    max-width: 264px;
 }
 /* ============================
          Portfolio page
